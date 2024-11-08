@@ -327,7 +327,7 @@ class IiifItems_Integration_Collections extends IiifItems_BaseIntegration {
     protected function _addIncludeSubmembers($args)
     {
         echo '<div class="field">';
-        echo '<div class="two columns alpha"><label for="include_submembers">';
+        echo '<div class="two columns alpha"><label for="submembers">';
         echo __("Include IIIF Submembers");
         echo '</label></div>';
         echo '<div class="five columns omega inputs">';
